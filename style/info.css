@@ -1,0 +1,192 @@
+
+
+.header{
+    width: 100%;
+    max-width: 1600px;
+    background-color: #2D4770;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar {
+    width: 100%; /* Ширина слоя */
+    max-width: 200px;
+    padding: 0 10px; /* Отступы вокруг текста */
+    float: left; /* Обтекание по правому краю */
+    color: #111;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    margin-left: 200px; /* Отступ слева */
+    padding: 10px; /* Поля вокруг текста */
+    background: #FFE0AA; /* Цвет фона правой колонки */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body {
+    font: 10pt Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+    background: #226666; /* Цвет фона */
+    display: flex;
+}
+
+h2 {
+    font-size: 1.1em; /* Размер шрифта */
+    color: #800040; /* Цвет текста */
+    margin-top: 0; /* Отступ сверху */
+}
+
+.container {
+    width: 1600px; /* Ширина слоя */
+    margin: 0 auto; /* Выравнивание по центру */
+    background: #FFCCAA; /* Цвет фона левой колонки */
+}
+
+.logo {
+    float: left;
+    width: 150px;
+    height: 76px;
+    margin: 15px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block; /*один из способов разместить элементы в строку*/
+}
+
+.sidebar li{
+    list-style-type: none;
+}
+
+.footer {
+    background: #AA3939; /* Цвет фона подвала */
+    color: #fff; /* Цвет текста */
+    padding: 20px;
+}
+
+.col-1-5 {
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+
+a.button18 {
+    display: inline-block;
+    font-size: 12px;
+    color: rgb(205, 216, 228);
+    text-decoration: none;
+    padding: .2em .8em;
+    outline: none;
+    border-right: 1px solid rgba(13, 20, 27, .5);
+    border-top: 1px solid rgba(270, 278, 287, .01);
+    background-color: rgb(64, 73, 82);
+    background-image: radial-gradient(1px 60% at 0% 50%, rgba(255, 255, 255, .3), transparent),
+    radial-gradient(1px 60% at 100% 50%, rgba(255, 255, 255, .3), transparent),
+    linear-gradient(rgb(64, 73, 82), rgb(72, 81, 90));
+}
+
+a.button18:hover {
+    background-image: radial-gradient(1px 60% at 0% 50%, rgba(255, 255, 255, .3), transparent),
+    radial-gradient(1px 60% at 100% 50%, rgba(255, 255, 255, .3), transparent),
+    linear-gradient(rgb(51, 60, 67), rgb(58, 65, 72));
+}
+
+a.button18:focus {
+    color: rgb(245, 247, 250);
+    border-top: 1px solid rgb(67, 111, 136);
+    background-image: linear-gradient(rgb(46, 95, 122), rgb(36, 68, 92));
+}
+
+a.button18:focus:hover {
+    border-top: 1px solid rgb(49, 87, 107);
+    background-image: linear-gradient(rgb(33, 77, 98), rgb(29, 57, 77));
+}
+
+
+a.button8 {
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+    margin-left: 35px;
+}
+
+a.button8:hover {
+    background: rgba(255, 255, 255, .2);
+}
+
+a.button8:active {
+    background: white;
+}
+
+.button-box{
+    float: left;
+    padding-top: 10px;
+}
+
+.description {
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+.info-block {
+    border: 3px solid black;
+    border-radius: 10px; /* Радиус скругления */
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.picture-with-description{
+    display: flex;
+}
+
+.info-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.reglog{
+    margin-top: 35px;
+    margin-right: 45px;
+}
+
+.add-block{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+
+
+.button-search{
+    width: 100px;
+    margin-top: 15px;
+}
+
